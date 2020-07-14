@@ -1,0 +1,48 @@
+Host *
+  ServerAliveInterval 120
+  ServerAliveCountMax 5
+  TCPKeepAlive yes
+
+Host guo-1
+  HostName IP
+  User liucj
+  Port port
+
+
+Host guo-2
+  HostName IP
+  User liucj
+  Port port
+  ProxyJump guo-4
+
+Host guo-3
+  HostName IP
+  User liucj
+  Port port
+
+
+Host guo-4
+  HostName IP
+  User liucj
+  Port port
+
+Host guo-10
+  HostName IP
+  User liucj
+  Port port
+
+
+Host mgt
+  HostName IP
+  User liucj
+  Port port
+
+Host sig
+  HostName IP
+  User liucj
+  Port port
+
+Host chen
+  HostName IP
+  User liucj
+  Port port
