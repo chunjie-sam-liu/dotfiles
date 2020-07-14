@@ -1,0 +1,130 @@
+{
+  "workbench.colorTheme": "Quiet Light",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "window.zoomLevel": 1,
+  "editor.fontSize": 14,
+  "materialTheme.fixIconsRunning": false,
+  "workbench.editor.enablePreview": false,
+  // sync settings based on gist
+  "sync.gist": "c029d8207df119a20c1cf91d9979866e",
+  "sync.quietSync": false,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "git.autofetch": true,
+  "material-icon-theme.folders.color": "#fdd835",
+  "editor.tabSize": 2,
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  // terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.external.windowsExec": "wt",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // remote ssh
+  "remote.SSH.showLoginTerminal": true,
+  "terminal.integrated.shell.linux": "bash",
+
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "files.trimTrailingWhitespace": true,
+  "git.ignoreLegacyWarning": true,
+  "editor.renderControlCharacters": true,
+  //pandoc settings
+  "pandoc.docxOptString": "",
+  "pandoc.htmlOptString": "-s -t html5",
+  "pandoc.pdfOptString": "--pdf-engine=xelatex -V CJKmainfont=KaiTi",
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // for python
+  "python.pythonPath": "python3",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "node_modules": true,
+    "venv": true
+  },
+  "python.jediEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pylintPath": "pylint",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "flake8",
+  "python.linting.flake8Args": [
+    "--max-line-length=128",
+    "--ignore=E401, E402,F841,F401,E302,E305,W391"
+  ],
+  "python.autoComplete.addBrackets": true,
+  "editor.formatOnSave": true,
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "black",
+  // prettier
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.requirePragma": true,
+  // "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.showFoldingControls": "always",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.view.alwaysShowzHeaderActions": true,
+  "workbench.editor.tabCloseButton": "left",
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "remote.SSH.connectTimeout": 10000,
+  "gitlens.mode.active": "zen",
+  "editor.renameOnType": true,
+  "explorer.confirmDelete": false,
+  "workbench.list.openMode": "doubleClick",
+  "git.enableSmartCommit": true,
+  "remote.SSH.remotePlatform": {
+    "guo-4": "linux",
+    "guo-10": "linux"
+  },
+  "sync.removeExtensions": false,
+  "python.dataScience.askForKernelRestart": false
+}
