@@ -1,0 +1,27 @@
+[user]
+	name = chunjie-sam-liu
+	email = chunjie-sam-liu@foxmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	cl = clone
+	ad = add
+	co = checkout
+	ss = status
+	cm = commit -m
+	br = branch -a
+	bd = branch -d
+	bu = branch -u
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	df = diff
+	mg = merge --no-ff -m
+	sv = status -v -v
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	default = matching
