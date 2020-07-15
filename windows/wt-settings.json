@@ -7,6 +7,9 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "initialCols": 120,
+  "initialRows": 30,
+  "wordDelimiters": " ",
   // You can add more global application settings here.
   // To learn more about global settings, visit https://aka.ms/terminal-global-settings
   // If enabled, selections are automatically copied to your clipboard.
