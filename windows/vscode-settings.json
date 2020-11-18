@@ -7,7 +7,6 @@
   "materialTheme.fixIconsRunning": false,
   "workbench.editor.enablePreview": false,
   // sync settings based on gist
-  "sync.gist": "c029d8207df119a20c1cf91d9979866e",
   "sync.quietSync": false,
   "sync.syncExtensions": true,
   "sync.autoDownload": false,
