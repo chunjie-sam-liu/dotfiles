@@ -1,0 +1,166 @@
+{
+  "material-icon-theme.folders.color": "#fdd835",
+
+  // editor
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.showFoldingControls": "always",
+  "editor.minimap.enabled": false,
+  "editor.renameOnType": true,
+  "editor.renderControlCharacters": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  // explore
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "window.zoomLevel": 1,
+  "window.restoreWindows": "none",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": { "when": "$(basename).py" },
+    "node_modules": true,
+    "venv": true,
+    ".Rproj.user": true,
+    "**/.ipynb_checkpoints/": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.view.alwaysShowzHeaderActions": true,
+
+  // sync settings based on gist
+
+  "sync.quietSync": true,
+  "sync.syncExtensions": true,
+  "sync.autoUpload": false,
+  "sync.forceDownload": true,
+  // terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+
+  // windows settings
+  "terminal.external.windowsExec": "wt",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  // git
+  "git.ignoreLegacyWarning": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.mode.active": "zen",
+  "git.enableSmartCommit": true,
+
+  //pandoc settings
+  "pandoc.docxOptString": "",
+  "pandoc.htmlOptString": "-s -t html5",
+  "pandoc.pdfOptString": "--pdf-engine=xelatex -V CJKmainfont=KaiTi",
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+
+  // remote ssh
+  "remote.SSH.connectTimeout": 100000,
+  "remote.SSH.showLoginTerminal": false,
+  "remote.SSH.suppressWindowsSshWarning": true,
+  "remote.SSH.remotePlatform": {
+    "guo-3": "linux",
+    "guo-4": "linux",
+    "guo-10": "linux"
+  },
+  "terminal.integrated.shell.linux": "bash",
+  "terminal.integrated.shellArgs.linux": ["-i", "-l"],
+  "terminal.integrated.inheritEnv": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // python
+  "python.pythonPath": "python3",
+  "python.analysis.disabled": ["unresolved-import"],
+  "editor.formatOnSave": false,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "python.jediEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pylintPath": "pylint",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "flake8",
+  "python.linting.flake8Args": [
+    "--max-line-length=256",
+    "--ignore=E401,E402,F841,F401,E302,E305,W391,W503"
+  ],
+  "python.autoComplete.addBrackets": true,
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "black",
+  "python.formatting.blackArgs": ["--line-length", "256"],
+  "python.showStartPage": false,
+  "python.analysis.completeFunctionParens": true,
+  "appService.enablePythonRemoteDebugging": true,
+  "autoDocstring.startOnNewLine": true,
+  "jupyter.askForKernelRestart": false,
+  "jupyter.showKernelSelectionOnInteractiveWindow": true,
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "jupyter.exportWithOutputEnabled": true,
+  "jupyter.jupyterInterruptTimeout": 1000000,
+  "jupyter.interactiveWindowMode": "perFile",
+  "jupyter.textOutputLimit": 5000,
+
+  // prettier
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.requirePragma": true,
+  // "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "diffEditor.ignoreTrimWhitespace": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "scm.alwaysShowRepositories": true,
+  "debug.javascript.usePreview": false,
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "workbench.colorTheme": "Quiet Light"
+}
