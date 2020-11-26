@@ -1,0 +1,3 @@
+[submodule "rstudio"]
+	path = rstudio
+	url = git@github.com:chunjie-sam-liu/rstudio.git
