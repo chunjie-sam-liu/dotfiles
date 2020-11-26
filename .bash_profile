@@ -29,7 +29,7 @@ alias free='free -g'
 #alias lsd='realpath *'
 alias la='ll -al'
 alias cdg='cd ~/github'
-alias cdd='cd ${HOME}/data'
+alias cdd='cd /home/liucj/data'
 alias cdp='cd ${HOME}/data/project'
 alias lns='ln -s '
 alias cds='cd ${HOME}/scripts'
@@ -40,6 +40,14 @@ alias ds='du -sh *|sort -h'
 alias ..='cd ..'
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias gad="git ad"
+alias gss="git ss"
+alias gcm="git cm"
+alias gbr="git br"
+alias glg="git lg"
+alias gps="git ps"
+alias gpl="git pl"
+alias gcl="git cl"
 
 
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
