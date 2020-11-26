@@ -7,17 +7,20 @@
 	branch = auto
 [alias]
 	cl = clone
+	pl = pull
+	ps = push
 	ad = add
 	co = checkout
 	ss = status
+	sv = status -v -v
 	cm = commit -m
-	br = branch -a
+	br = branch -a -vv
 	bd = branch -d
 	bu = branch -u
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	df = diff
 	mg = merge --no-ff -m
-	sv = status -v -v
+	rm = rm -r --cached
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -25,3 +28,11 @@
 	required = true
 [push]
 	default = matching
+	followTags = true
+[pager]
+	branch = false
+	tag = false
+[core]
+	editor = "vim"
+[help]
+	autocorrect = 1
