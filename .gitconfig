@@ -21,6 +21,7 @@
 	df = diff
 	mg = merge --no-ff -m
 	rm = rm -r --cached
+	sb = submodule update --init --recursive
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -36,3 +37,5 @@
 	editor = "vim"
 [help]
 	autocorrect = 1
+[pull]
+	rebase = false
